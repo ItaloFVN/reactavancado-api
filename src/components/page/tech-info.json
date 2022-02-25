@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_tech_infos",
+  "info": {
+    "displayName": "techIcons",
+    "icon": "pen-square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
