@@ -9,7 +9,7 @@ module.exports = [
     'strapi::favicon',
     'strapi::public',
     {
-        name: 'strapi::security',
+        resolve: 'strapi::security',
         config: {
             contentSecurityPolicy: {
                 useDefaults: true,
