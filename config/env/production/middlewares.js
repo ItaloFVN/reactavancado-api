@@ -1,6 +1,6 @@
 module.exports = [
     {
-        name: 'strapi::security',
+        name: 'strapi:: security',
         config: {
             contentSecurityPolicy: {
                 useDefaults: true,
